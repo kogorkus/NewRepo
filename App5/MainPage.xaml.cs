@@ -31,7 +31,7 @@ namespace App5
             int[] arr = { 1, 2, 4, 5, 7, 7, 4, 3, 6 };
             this.InitializeComponent();
           
-            int result = sum(arr, s => s % 4 == 0);
+            int result = sum(arr, s => s > 4);
             tbName.Text = result.ToString();
         }
 
